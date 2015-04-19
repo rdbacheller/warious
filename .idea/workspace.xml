@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da917a0f-8bb2-46b7-bac5-0a5fe095f2f7" name="Default" comment="" />
+    <list default="true" id="da917a0f-8bb2-46b7-bac5-0a5fe095f2f7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/landing.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/landing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="warious.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -35,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29651162" vertical-offset="0" max-vertical-offset="860">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
               <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -47,7 +50,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="landing.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/landing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.039534885" vertical-offset="0" max-vertical-offset="860">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -55,6 +71,7 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/landing.js" />
       </list>
     </option>
   </component>
@@ -67,7 +84,7 @@
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -404,11 +421,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29651162" vertical-offset="0" max-vertical-offset="860">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/landing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.039534885" vertical-offset="0" max-vertical-offset="860">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>

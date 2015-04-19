@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails warious: development" uuid="42328b7a-c68d-458a-824a-fa7a1e6fa2da">
+      <user-name>warious</user-name>
+      <user-password>dfd9dfcfdfc9dfd8dfcfdfde</user-password>
+      <schema-pattern>warious_development.pg_catalog warious_development.public</schema-pattern>
+      <default-schemas>warious_development.pg_catalog warious_development.public</default-schemas>
+    </data-source>
+    <data-source name="Rails warious: test" uuid="3ed41f20-889f-4445-9399-90805f4e77a7">
+      <user-name>warious</user-name>
+      <user-password>dfd9dfcfdfc9dfd8dfcfdfde</user-password>
+      <schema-pattern>warious_test.pg_catalog warious_test.public</schema-pattern>
+      <default-schemas>warious_test.pg_catalog warious_test.public</default-schemas>
+    </data-source>
+    <data-source name="Rails warious: production" uuid="b814290c-b838-4638-9fb2-f78757829e80">
+      <first-sync>true</first-sync>
+      <user-name>warious</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddffddfebdff8dfe3dfe5dfffdff9dff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+    </data-source>
+  </component>
+</project>

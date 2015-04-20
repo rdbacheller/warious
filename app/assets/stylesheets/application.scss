@@ -1,0 +1,128 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+html {
+  background-image: url(image_path("tile.jpg"));
+}
+
+.backdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -4;
+
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.backdrop_3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -3;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.backdrop_2 {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  margin: 0;
+  height: 100%;
+  width: 98%;
+
+  z-index: -2;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.backdrop_1 {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  margin: 0;
+  height: 100%;
+  width: 96%;
+
+  z-index: -1;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  margin: 0;
+  height: 100%;
+  width: 94%;
+
+  z-index: 1;
+
+  //background-color: rgba(26, 32, 22, .6);
+  background-color: rgba(110, 120, 100, 0.8);
+
+  #heading {
+    position: relative;
+    float: left;
+    margin: 0 10%;
+    padding: 0;
+    height: 5%;
+    min-height: 36px;
+    width: 80%;
+
+    //background-color: rgba(110, 120, 100, 0.8);
+    background-color: rgba(26, 32, 22, .5);
+
+    h1 {
+      position: relative;
+      float: left;
+
+      margin: 0 0 0 2.5%;
+      height: 100%;
+
+      font-size: 36px;
+
+      color: papayawhip;
+    }
+
+    p {
+      position: relative;
+      float: left;
+
+      margin: 1.5% 0;
+
+      color: white;
+    }
+  }
+
+  #page_body {
+    position: relative;
+    float: left;
+    margin: 0 10%;
+    height: 95%;
+    width: 80%;
+
+    background-color: rgba(115, 120, 115, .8)
+  }
+}

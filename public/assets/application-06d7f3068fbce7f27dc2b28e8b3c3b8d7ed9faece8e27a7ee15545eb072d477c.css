@@ -1,0 +1,40 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 17, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+html {
+  background-image: url("/assets/tile-92522fdffd07812f837f425e28c100c811dfa97ef36550411b3dcc396fe4cc83.jpg");
+}
+
+/* line 21, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+div#3.backdrop {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0 2.5%;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 32, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop#2 {
+  background-color: #2E2F30;
+}
+
+/* line 36, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop#1 {
+  background-color: #666666;
+}

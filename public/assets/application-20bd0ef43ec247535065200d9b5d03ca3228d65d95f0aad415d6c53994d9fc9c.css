@@ -1,0 +1,119 @@
+/* line 5, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+h1 {
+  color: white;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 17, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+html {
+  background-image: url("/assets/tile-92522fdffd07812f837f425e28c100c811dfa97ef36550411b3dcc396fe4cc83.jpg");
+}
+
+/* line 21, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -4;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* line 34, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop_3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 47, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop_2 {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  margin: 0;
+  height: 100%;
+  width: 98%;
+  z-index: -2;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 60, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop_1 {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  margin: 0;
+  height: 100%;
+  width: 96%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 73, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container {
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  margin: 0;
+  height: 100%;
+  width: 94%;
+  z-index: 1;
+  background-color: rgba(110, 120, 100, 0.8);
+}
+/* line 86, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #heading {
+  position: relative;
+  float: left;
+  margin: 0 10%;
+  padding: 0;
+  height: 5%;
+  min-height: 36px;
+  width: 80%;
+  background-color: rgba(26, 32, 22, 0.5);
+}
+/* line 98, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #heading h1 {
+  position: relative;
+  float: left;
+  margin: 0 0 0 2.5%;
+  height: 100%;
+  font-size: 36px;
+  color: papayawhip;
+}
+/* line 110, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #heading p {
+  position: relative;
+  float: left;
+  margin: 1.5% 0;
+  color: white;
+}
+/* line 120, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #page_body {
+  position: relative;
+  float: left;
+  margin: 0 10%;
+  height: 95%;
+  width: 80%;
+  background-color: rgba(115, 120, 115, 0.8);
+}

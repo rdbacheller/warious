@@ -88,8 +88,11 @@ html {
     margin: 0 10%;
     padding: 0;
     height: 5%;
-    min-height: 36px;
+    min-height: 38px;
     width: 80%;
+    min-width: 400px;
+
+    border-radius: 30% 30% 0 0;
 
     //background-color: rgba(110, 120, 100, 0.8);
     background-color: rgba(26, 32, 22, .5);
@@ -101,7 +104,7 @@ html {
       margin: 0 0 0 2.5%;
       height: 100%;
 
-      font-size: 36px;
+      font-size: 38px;
 
       color: papayawhip;
     }
@@ -122,7 +125,8 @@ html {
     margin: 0 10%;
     height: 95%;
     width: 80%;
+    min-width: 400px;
 
-    background-color: rgba(115, 120, 115, .8)
+    background-color: rgba(95, 115, 80, .7)
   }
 }

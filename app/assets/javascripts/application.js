@@ -30,7 +30,6 @@ function livenUp() {
         $(".backdrop_"+backdrop--).css("background-color", "rgba("+(colors[i]+5+backdrop)+","+(colors[i]-10+colors[i]++)+","+
         colors[i]+",0.4)");
     }
-    //alert("made it here");
 }
 
 $(document).ready( function() {

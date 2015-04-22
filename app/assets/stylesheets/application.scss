@@ -13,9 +13,124 @@
  *= require_tree .
  *= require_self
  */
+@font-face {
+  font-family: optie;
+  src: font-url("optie.ttf");
+}
+
+@font-face {
+  font-family: popwei;
+  src: font_url("popwei.ttf");
+}
+
+@font-face {
+  font-family: ComingSoon;
+  src: font_url("ComingSoon.ttf");
+}
+
+@font-face {
+  font-family: Algol_Italic;
+  src: font_url("Algol_Italic.otf");
+}
+
+@font-face {
+  font-family: Algol;
+  src: font_url("Algol.otf");
+}
+
+@font-face {
+  font-family: Fanatika;
+  src: font_url("fanatika.ttf");
+}
+
+@font-face {
+  font-family: FanatikaTwo;
+  src: font-url("fanatikatwo.ttf");
+}
+
+@font-face {
+  font-family: Gashp;
+  src: font-url("gashp.ttf");
+}
+
+@font-face {
+  font-family: Mad_Potato_Bill;
+  src: font-url("Mad_Potato_Bill.ttf");
+}
+
+@font-face {
+  font-family: Messy_Fika;
+  src: font-url("messy_fika.ttf");
+}
+
+@font-face {
+  font-family: Rain_Tax;
+  src: font_url("Rain_Tax.otf");
+}
+
+@font-face {
+  font-family: Walkway;
+  src: font_url("Walkway.ttf");
+}
+
+@font-face {
+  font-family: Hastings;
+  src: font_url("Hastings.ttf");
+}
+
+@font-face {
+  font-family: Castor;
+  src: font_url("CASTOR_.ttf");
+}
+
+@font-face {
+  font-family: CastorM;
+  src: font_url("CASTORM_.ttf");
+}
+
+@font-face {
+  font-family: Kingthings_Sans;
+  src: font_url("Kingthings_Sans.ttf");
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: font_url("Raleway-Mediun.ttf");
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: font_url("Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: font_url("Raleway-SemiBold.ttf");
+}
+
 html {
   background-image: url(image_path("tile.jpg"));
 }
+
+a {
+  text-decoration: none;
+  //text-shadow: -1px 0 #991100, 0 1px #991100, 1px 0 #991100, 0 -1px #991100;
+
+  font-size: 20px;
+}
+
+a:link {
+  color: rgba(10, 255, 0, 0.8);
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgba(0, 255, 0, 1);
+}
+
+a:hover {}
 
 .backdrop {
   position: absolute;
@@ -27,7 +142,7 @@ html {
 
   z-index: -4;
 
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .backdrop_3 {
@@ -101,10 +216,11 @@ html {
       position: relative;
       float: left;
 
-      margin: 0 0 0 2.5%;
+      margin: 1% 0 0 2.5%;
       height: 100%;
 
-      font-size: 38px;
+      font-size: 42px;
+      font-family: optie;
 
       color: papayawhip;
     }
@@ -113,9 +229,14 @@ html {
       position: relative;
       float: left;
 
-      margin: 1.5% 0;
+      margin: 1% 0;
 
-      color: white;
+      font-size: 24px;
+      font-family: popwei;
+      //text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+      //text-shadow: -2px 0 #FFF, 0 2px #FFF, 2px 0 #FFF, 0 -2px #FFF;
+
+      color: rgba(150, 250, 0, 0.95);
     }
   }
 

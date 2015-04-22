@@ -1,16 +1,15 @@
 // Place all the styles related to the Landing controller here.
 // They will automatically be included in application.scss.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
 .storyContainer {
   position: relative;
-  margin: 5% 10%;
+  margin: 5% 10% 0 10%;
 
   width: 80%;
   height: 60%;
 
   border-radius: 5%;
-  background-color: rgba(30, 125, 10, 0.3);
+  background-color: rgba(15, 225, 0, 0.3);
 
   #storyBox {
     position: relative;
@@ -22,6 +21,41 @@
 
     border-radius: 2% 2% 0 0;
     background-color: rgba(3, 5, 0, .35);
+
+    .activePost {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      h1 {
+        padding: 2% 10% 0 10%;
+        border-spacing: inherit;
+
+        font-family: Gashp;
+        line-height: 100%;
+        text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+
+        color: #AAAA00;
+      }
+
+      p {
+        padding: 2% 5% 0 5%;
+
+        font-family: Raleway-SemiBold;
+        font-size: 18px;
+
+        color: #CCCC66;
+      }
+
+      a {}
+    }
+
+    .inactivePost {
+      position: absolute;
+      top: 0;
+      left: 0;
+      visibility: collapse;
+    }
   }
 
   .switchContainer {
@@ -42,6 +76,7 @@
       height: 100%;
       width: 25%;
 
+      border: none;
       background-color: rgba(20, 50, 8, .6);
 
       .switchBox {
@@ -54,16 +89,17 @@
 
         border: solid 2px #000;
 
-        background-color: rgba(75, 40, 8, .6);
+        background-color: rgba(180, 200, 150, .6);
 
         h3 {
           margin: 0;
 
           text-align: center;
-          text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+          text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
           font-size: 18px;
+          font-family: Walkway;
 
-          color: #FFF;
+          color: yellow;
         }
       }
     }
@@ -76,6 +112,7 @@
       height: 100%;
       width: 25%;
 
+      border: none;
       background-color: rgba(10, 13, 8, .8);
 
       .switchBox {
@@ -88,18 +125,76 @@
 
         border: solid 2px #000;
 
-        background-color: rgba(50, 20, 6, .6);
+        background-color: rgba(80, 100, 60, .6);
 
         h3 {
           margin: 0;
 
           text-align: center;
-          text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
-          font-size: 16px;
+          text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+          font-size: 18px;
+          font-family: Walkway;
 
-          color: #FFF;
+          color: yellow;
         }
       }
+    }
+  }
+}
+
+.bottomContainer {
+  position: relative;
+  float: left;
+  margin: 2.5% 10% 0 10%;
+
+  height: 25%;
+  width: 80%;
+
+  border-radius: 5%;
+  background-color: rgba(15, 225, 0, 0.3);
+
+  #pictureBox {
+    position: relative;
+    float: left;
+    margin: 0 0 0 5%;
+
+    height: 100%;
+    width: 30%;
+
+    background: url(image_path("$_warious_2.jpg")) no-repeat;
+    //background-color: gray;
+    // background-image: url(image_path("$me0.jpg"));
+    background-size: cover;
+  }
+
+  #blurbBox {
+    position: relative;
+    float: left;
+    margin: 0 5% 0 0;
+
+    height: 100%;
+    width: 60%;
+
+    //background-color: rgba(60, 175, 40, 0.8);
+    background-color: rgba(3, 8, 0, .35);
+
+    h1 {
+      padding: 2% 0 0 10%;
+
+      font-family: ComingSoon;
+      text-shadow: -4px 0 #000, 0 4px #000, 4px 0 #000, 0 -4px #000;
+
+      color: rgba(170, 225, 16, 0.9);
+      //color: rgba(120, 255, 40, 0.85);
+    }
+
+    p {
+      padding: 0 5%;
+
+      text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+      font-size: 18px;
+
+      color: white;
     }
   }
 }

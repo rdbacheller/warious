@@ -1,0 +1,281 @@
+/* line 4, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer {
+  position: relative;
+  margin: 5% 10% 0 10%;
+  width: 80%;
+  height: 60%;
+  border-radius: 5%;
+  background-color: rgba(30, 125, 10, 0.3);
+}
+/* line 14, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer #storyBox {
+  position: relative;
+  float: left;
+  margin: 0 5%;
+  height: 85%;
+  width: 90%;
+  border-radius: 2% 2% 0 0;
+  background-color: rgba(3, 5, 0, 0.35);
+}
+/* line 26, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer .switchContainer {
+  position: relative;
+  float: left;
+  margin: 0 5%;
+  height: 15%;
+  width: 90%;
+}
+/* line 36, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer .switchContainer .boxSelected {
+  position: relative;
+  float: left;
+  margin: 0;
+  height: 100%;
+  width: 25%;
+  border: none;
+  background-color: rgba(20, 50, 8, 0.6);
+}
+/* line 47, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer .switchContainer .boxSelected .switchBox {
+  position: relative;
+  float: left;
+  margin: 0 0 10% 0;
+  height: 78%;
+  width: 98%;
+  border: solid 2px #000;
+  background-color: rgba(75, 40, 8, 0.6);
+}
+/* line 59, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer .switchContainer .boxSelected .switchBox h3 {
+  margin: 0;
+  text-align: center;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  font-size: 18px;
+  color: #FFF;
+}
+/* line 71, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer .switchContainer .boxDefault {
+  position: relative;
+  float: left;
+  margin: 0;
+  height: 100%;
+  width: 25%;
+  border: none;
+  background-color: rgba(10, 13, 8, 0.8);
+}
+/* line 82, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer .switchContainer .boxDefault .switchBox {
+  position: relative;
+  float: left;
+  margin: 0 0 10% 0;
+  height: 78%;
+  width: 98%;
+  border: solid 2px #000;
+  background-color: rgba(50, 20, 6, 0.6);
+}
+/* line 94, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.storyContainer .switchContainer .boxDefault .switchBox h3 {
+  margin: 0;
+  text-align: center;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  font-size: 16px;
+  color: #FFF;
+}
+
+/* line 108, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.bottomContainer {
+  position: relative;
+  float: left;
+  margin: 2.5% 10% 0 10%;
+  height: 25%;
+  width: 80%;
+  border-radius: 5%;
+  background-color: rgba(30, 125, 10, 0.3);
+}
+/* line 119, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.bottomContainer #pictureBox {
+  position: relative;
+  float: left;
+  margin: 0 0 0 5%;
+  height: 100%;
+  width: 30%;
+  background: url("/images/$_warious_me_1.jpg") no-repeat;
+  background-size: cover;
+}
+/* line 133, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.bottomContainer #blurbBox {
+  position: relative;
+  float: left;
+  margin: 0 5% 0 0;
+  height: 100%;
+  width: 60%;
+  background-color: rgba(3, 8, 0, 0.35);
+}
+/* line 144, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.bottomContainer #blurbBox h1 {
+  padding: 2% 0 0 10%;
+  font-family: ComingSoon;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  color: rgba(150, 250, 0, 0.9);
+}
+/* line 154, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/landing.scss */
+.bottomContainer #blurbBox p {
+  padding: 0 5%;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+  font-size: 18px;
+  color: white;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@font-face {
+  font-family: optie;
+  src: url(/assets/optie-c88008e91e35dc0413f5dc8e76116e920b9efebd19294ad7235711a6f36980ba.ttf);
+}
+@font-face {
+  font-family: popwei;
+  src: url(/assets/popwei-0e6bed010f1070496ec98d9bcf20129915919040720fcdff771873de74509e76.ttf);
+}
+@font-face {
+  font-family: ComingSoon;
+  src: url(/assets/ComingSoon-f9a8306e3b6f9f689597934b828c85797825285f30fe606a81b5400f6d810ee9.ttf);
+}
+/* line 32, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+html {
+  background-image: url("/assets/tile-92522fdffd07812f837f425e28c100c811dfa97ef36550411b3dcc396fe4cc83.jpg");
+}
+
+/* line 36, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* line 43, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+a:link {
+  color: rgba(10, 255, 0, 0.8);
+}
+
+/* line 47, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+a:visited {
+  color: white;
+}
+
+/* line 51, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+a:hover {
+  color: lime;
+}
+
+/* line 57, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -4;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 70, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop_3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -3;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 83, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop_2 {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  margin: 0;
+  height: 100%;
+  width: 98%;
+  z-index: -2;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 96, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.backdrop_1 {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  margin: 0;
+  height: 100%;
+  width: 96%;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 109, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container {
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  margin: 0;
+  height: 100%;
+  width: 94%;
+  z-index: 1;
+  background-color: rgba(110, 120, 100, 0.8);
+}
+/* line 122, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #heading {
+  position: relative;
+  float: left;
+  margin: 0 10%;
+  padding: 0;
+  height: 5%;
+  min-height: 38px;
+  width: 80%;
+  min-width: 400px;
+  border-radius: 30% 30% 0 0;
+  background-color: rgba(26, 32, 22, 0.5);
+}
+/* line 137, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #heading h1 {
+  position: relative;
+  float: left;
+  margin: 0 0 0 2.5%;
+  height: 100%;
+  font-size: 42px;
+  font-family: optie;
+  color: papayawhip;
+}
+/* line 150, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #heading p {
+  position: relative;
+  float: left;
+  margin: .5% 0;
+  font-size: 24px;
+  font-family: popwei;
+  color: rgba(150, 250, 0, 0.95);
+}
+/* line 165, C:/Users/Loki/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #page_body {
+  position: relative;
+  float: left;
+  margin: 0 10%;
+  height: 95%;
+  width: 80%;
+  min-width: 400px;
+  background-color: rgba(95, 115, 80, 0.7);
+}

@@ -32,7 +32,7 @@ function livenUp() {
     }
 }
 
-$(document).ready( function() {
+$(document).on("page:change", function() {
     $(".backdrop_3").click( function() {
         clearInterval(timer);
         colors= [2, 1, 0];

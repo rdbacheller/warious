@@ -5,14 +5,14 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:warious_development_</jdbc-url>
+      <jdbc-url>jdbc:postgresql:warious_development</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails warious: test" uuid="3ed41f20-889f-4445-9399-90805f4e77a7">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:warious_test_</jdbc-url>
+      <jdbc-url>jdbc:postgresql:warious_test</jdbc-url>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails warious: production" uuid="b814290c-b838-4638-9fb2-f78757829e80">

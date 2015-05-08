@@ -23,7 +23,7 @@ default: &default
 
 development:
   <<: *default
-  database: warious_development_
+  database: warious_development
   username: warious
   password: secret
 
@@ -59,7 +59,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: warious_test_
+  database: warious_test
   username: warious
   password: secret
 

@@ -25,4 +25,10 @@ class LandingController < ApplicationController
 
   def easteregg
   end
+
+  def postTitle (title)
+    arr = title.split.each_slice(2).map{|a|a.join ' '}
+
+    return title
+  end
 end

@@ -1,9 +1,12 @@
 <div class="storyContainer">
   <div id="storyBox">
     <div class="activePost" id="postOne">
-      <h1 id="title"><%= @postOne.title %>:</h1>
-      <p id="blurb"><%= @postOne.blurb %></p>
-      <a id="storyLink" href="<%= @postOne.picture %>">~Read The Post~</a>
+      <div class="storyBody">
+        <h1 id="title"><%= @postOne.title %>:</h1>
+        <p id="blurb"><%= @postOne.blurb %></p>
+        <a id="storyLink" href="<%= postTitle(@postOne.title) %>">~Read The Post~</a>
+      </div>
+      <div id="storyPicture" src="<%= @postOne.picture %>"></div>
     </div>
     <div class="inactivePost" id="postTwo">
       <h1 id="title"><%= @postTwo.title %>:</h1>

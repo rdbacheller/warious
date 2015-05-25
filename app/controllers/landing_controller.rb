@@ -1,11 +1,29 @@
 class LandingController < ApplicationController
 
   def index
-    posts = Post.order('created_at DESC');
-    @postOne = posts[0];
-    @postTwo = posts[1];
-    @postThree = posts[2];
-    @postFour = posts[3];
+    # Needs to implement error-handling and content checking/validation
+
+    posts = Post.reverse('created_at DESC');
+    blank = Post.new(title: 'No Valid Article. . .', blurb: "This article doesn't really exist. . .", body: "This article doesn't really exist", picture: 'tile.jpg');
+
+    @postOne    = blank;
+    @postTwo    = blank;
+    @postThree  = blank;
+    @postFour   = blank;
+
+    if(!posts.nil?)
+      @postOne    = posts.pop();
+    end
+    if(!posts.nil?)
+      @postTwo    = posts.pop();
+    end
+    if(!posts.nil?)
+      @postThree  = posts.pop();
+    end
+    if(!posts.nil?)
+      @postFour   = posts.pop();
+    end
+
   end
 
   def pad

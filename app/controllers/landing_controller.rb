@@ -3,12 +3,12 @@ class LandingController < ApplicationController
   def index
     # Needs to implement error-handling and content checking/validation
 
-    posts = Post.order('created_at DESC');
+    #posts = Post.order('created_at DESC');
 
-    @postOne = posts[0];
-    @postTwo = posts[1];
-    @postThree = posts[2];
-    @postFour = posts[3];
+    #@postOne = posts[0];
+    #@postTwo = posts[1];
+    #@postThree = posts[2];
+    #@postFour = posts[3];
   end
 
   def pad

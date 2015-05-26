@@ -4,7 +4,7 @@ class LandingController < ApplicationController
     # content checking/validation
 
     # Pulls all of the posts from the Post table
-    posts = Post.order('created_at DESC');
+    posts = Post.order('created_at DESC')
 
     # Creates a temporary blank post
     blank = Post.new(title: 'Non-Existent Article',blurb: 'This is filler text',body: 'This is filler for a non-existent article', picture: 'tile.jpg', url: 'nonexistent');
@@ -13,6 +13,11 @@ class LandingController < ApplicationController
     @postTwo = blank
     @postThree = blank
     @postFour = blank
+
+    # Tests to see if 'posts' is empty; if so, nothing else need to done
+    #if(!posts)
+      #return
+    #end
 
     # Tests to see if the entry is blank (nil), if it isn't then the proper post is set; this works on a post-by-post basis,
     # and is ugly but highly effective

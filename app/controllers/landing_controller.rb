@@ -32,8 +32,14 @@ class LandingController < ApplicationController
         @postTwo = posts[1]
       end
       @postOne = posts[0]
-      return
+      # return
     end
+
+    # redirect_to :controller => 'landing', :action => 'cascade'
+  end
+
+  def cascade
+
   end
 
   def pad

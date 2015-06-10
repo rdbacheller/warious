@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   resources :posts
+  root 'landing#index'
+
   get 'landing/index'
+  get 'landing/cascade'
 
   #get 'landing/pad'
 
@@ -18,7 +21,6 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'landing#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

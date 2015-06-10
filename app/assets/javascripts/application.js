@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-var timer;
+/*var timer;
 var colors= [0, 0, 0];
 var backdrop = 3;
 
@@ -27,8 +27,8 @@ function livenUp() {
         if( backdrop < 1 )
             backdrop = 3;
 
-        $(".backdrop_"+backdrop--).css("background-color", "rgba("+(colors[i]+5+backdrop)+","+(colors[i]-10+colors[i]++)+","+
-        colors[i]+",0.4)");
+        //$(".backdrop_"+backdrop--).css("background-color", "rgba("+(colors[i]+5+backdrop)+","+(colors[i]-10+colors[i]++)+","+
+        //colors[i]+",0.4)");
     }
 }
 
@@ -39,4 +39,4 @@ $(document).on("page:change", function() {
         timer = setInterval(livenUp, 15);
     });
     timer = setInterval(livenUp, 60);
-} );
+} );*/

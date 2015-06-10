@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Warious</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="backdrop" />
+<div class="backdrop_3" />
+<div class="backdrop_2" />
+<div class="backdrop_1" />
+
+<div class="container">
+  <div id="heading"><h1>warious</h1><p>- The Personal Blog of Ryan Bacheller</p></div>
+  <div id="page_body">
+    <%= yield %>
+  </div>
+</div>
+
+</body>
+</html>

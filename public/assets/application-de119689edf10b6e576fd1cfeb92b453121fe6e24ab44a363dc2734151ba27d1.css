@@ -1,0 +1,759 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+@font-face {
+  font-family: optie;
+  src: url(/assets/optie-c88008e91e35dc0413f5dc8e76116e920b9efebd19294ad7235711a6f36980ba.ttf);
+}
+@font-face {
+  font-family: popwei;
+  src: url(/assets/popwei-0e6bed010f1070496ec98d9bcf20129915919040720fcdff771873de74509e76.ttf);
+}
+@font-face {
+  font-family: ComingSoon;
+  src: url(/assets/ComingSoon-f9a8306e3b6f9f689597934b828c85797825285f30fe606a81b5400f6d810ee9.ttf);
+}
+@font-face {
+  font-family: Algol_Italic;
+  src: url(/assets/Algol_Italic-6e8e036d159e6e01521b38c4c8ed588a9a380c8025655b5de2ef77307634a696.otf);
+}
+@font-face {
+  font-family: Algol;
+  src: url(/assets/Algol-af473396b5be37bc1df70df9fa34888ef706ef321f07bb6dead5a20b7d25e526.otf);
+}
+@font-face {
+  font-family: Fanatika;
+  src: url(/assets/fanatika-3a8c2491f7ecb9541f93fb8fc033397ba62efaa281abffb8dc5add724636b4ac.ttf);
+}
+@font-face {
+  font-family: FanatikaTwo;
+  src: url(/assets/fanatikatwo-2469f2c99860cc2573f5a9987c0f1eb09df7159cc879c119b991561114df060c.ttf);
+}
+@font-face {
+  font-family: Gashp;
+  src: url(/assets/gashp-7380f7b0c222018118122be5df8d61795e1c23780603c8cf272c150fa81b9f2f.ttf);
+}
+@font-face {
+  font-family: Mad_Potato_Bill;
+  src: url(/assets/Mad_Potato_Bill-df5c8d847db8ecea1eaa57451093e2580cb0ef3c07ba8ddfc11c6adc21b0db4c.ttf);
+}
+@font-face {
+  font-family: Messy_Fika;
+  src: url(/assets/messy_fika-9ca02664e6ab08d0e9fad92cf0573d3a7fe353aa46ad852f0ef18e6e133d9f38.ttf);
+}
+@font-face {
+  font-family: Rain_Tax;
+  src: url(/assets/Rain_Tax-60731d8c4fe5c585082d3435f2fbf74384c4d1ecc30d9bdc5e33de872fd1b7c2.otf);
+}
+@font-face {
+  font-family: Walkway;
+  src: url(/assets/Walkway-1cdf57da030243200d7d6cd4ef7d0a6cfcc145fe87547c45bf7a12449826c630.ttf);
+}
+@font-face {
+  font-family: Hastings;
+  src: url(/assets/Hastings-5164dd32d468bfe17b6543eb9df79d83d3622bd8c31364ff599c00b24b5c8f7f.ttf);
+}
+@font-face {
+  font-family: Castor;
+  src: url(/fonts/CASTOR_.ttf);
+}
+@font-face {
+  font-family: CastorM;
+  src: url(/assets/CASTORM_-6a3ad435b477bec8a7583a23e83487680677d60e1954594b15cee8975f5289d3.ttf);
+}
+@font-face {
+  font-family: Kingthings_Sans;
+  src: url(/assets/Kingthings_Sans-a90db60e3c3becf969d68c3a8d0d17e33c1922fcd3979c3220c12d503c754aba.ttf);
+}
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(/fonts/Raleway-Mediun.ttf);
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(/assets/Raleway-Regular-169dfb506b814bd50fd1876b301c78ce8213af7e5dcbbb1f5da713f9d67fd909.ttf);
+}
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: url(/assets/Raleway-SemiBold-396e1a6c042c913ea2f5a8655f043b73fc7560806a6dc89ea189a6fefc8af1b1.ttf);
+}
+/* line 111, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+html {
+  background-image: url("/assets/tile-0b548462ff33e96f9d5abfe91f7735c1741d2c5d0858a504d9fbc1847a3790cc.jpg");
+}
+
+/*a {
+  text-decoration: none;
+  //text-shadow: -1px 0 #991100, 0 1px #991100, 1px 0 #991100, 0 -1px #991100;
+
+  font-size: 20px;
+}
+
+a:link {
+  color: rgba(10, 255, 0, 0.8);
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgba(0, 255, 0, 1);
+}*/
+/* line 134, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+  background-color: rgba(200, 200, 200, 0.8);
+}
+/* line 150, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar {
+  position: relative;
+  float: left;
+  margin-left: 10%;
+  height: 100%;
+  width: 15%;
+  background-color: rgba(5, 5, 5, 0.8);
+}
+/* line 161, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar #mainNav {
+  position: relative;
+  float: left;
+  height: 5%;
+  width: 100%;
+  margin: 7% 0 0 0;
+  background-color: rgba(0, 100, 50, 0.7);
+}
+/* line 172, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar #mainNav h1 {
+  text-align: center;
+  text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+  color: #ffffff;
+}
+/* line 180, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar #mainNav:hover {
+  background-color: #006464;
+}
+/* line 184, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar ul {
+  position: relative;
+  float: left;
+  height: 85%;
+  margin: 10% 0 0 0;
+  padding: 5% 0 0 5%;
+  background-color: rgba(80, 80, 80, 0.9);
+}
+/* line 196, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar h2 {
+  color: #ffffff;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+/* line 205, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar h3 {
+  text-align: center;
+  font-size: 14px;
+}
+/* line 210, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar li {
+  padding: .016px 0;
+}
+/* line 215, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar li.active {
+  background-color: rgba(140, 140, 140, 0.85);
+}
+/* line 219, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar li.active:hover {
+  background-color: rgba(140, 140, 140, 0.85);
+}
+/* line 223, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar li:hover {
+  background-color: rgba(140, 140, 140, 0.55);
+}
+/* line 226, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar li:hover h3 {
+  color: #ffffff;
+}
+/* line 231, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar h3 {
+  color: white;
+}
+/* line 235, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar #navbar {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 2%;
+  height: 40%;
+  width: 333%;
+  z-index: 9;
+  background-color: #000000;
+}
+/* line 249, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar #mainNav:hover + #navbar {
+  display: block;
+}
+/* line 253, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #sidebar #navbar:hover {
+  display: block;
+  background-color: gray;
+}
+/* line 260, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/application.scss */
+.container #viewBody {
+  position: relative;
+  float: left;
+  margin-right: 10%;
+  height: 100%;
+  width: 65%;
+  background-color: whitesmoke;
+}
+/*// Place all the styles related to the Landing controller here.
+// They will automatically be included in application.scss.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.storyContainer {
+  position: relative;
+  margin: 5% 10% 0 10%;
+
+  width: 80%;
+  height: 60%;
+
+  border-radius: 5%;
+  background-color: rgba(15, 225, 0, 0.3);
+
+  #storyBox {
+    position: relative;
+    float: left;
+    margin: 0 5%;
+
+    height: 85%;
+    width: 90%;
+
+    border-radius: 2% 2% 0 0;
+    background-color: rgba(3, 5, 0, .35);
+
+    .activePost {
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      h1 {
+        padding: 2% 2.5% 0 2.5%;
+        border-spacing: inherit;
+
+        font-family: Gashp;
+        line-height: 100%;
+        text-shadow: -3px 0 #000, 0 3px #000, 3px 0 #000, 0 -3px #000;
+
+        color: #AAAA00;
+      }
+
+      p {
+        padding: 2% 2.5% 0 2.5%;
+
+        font-family: Raleway-SemiBold;
+        font-size: 18px;
+
+        color: #CCCC66;
+      }
+
+      a {}
+    }
+
+    .inactivePost {
+      position: absolute;
+      top: 0;
+      left: 0;
+      visibility: collapse;
+    }
+  }
+
+  .switchContainer {
+    position: relative;
+    float: left;
+    margin: 0 5%;
+
+    height: 15%;
+    width: 90%;
+
+    //background-color: black;
+
+    .boxSelected {
+      position: relative;
+      float: left;
+      margin: 0;
+
+      height: 100%;
+      width: 25%;
+
+      border: none;
+      background-color: rgba(20, 50, 8, .6);
+
+      .switchBox {
+        position: relative;
+        float: left;
+        margin: 0 0 10% 0;
+
+        height: 78%;
+        width: 98%;
+
+        border: solid 2px #000;
+
+        background-color: rgba(180, 200, 150, .6);
+
+        h3 {
+          margin: 0;
+
+          text-align: center;
+          text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+          font-size: 18px;
+          font-family: Walkway;
+
+          color: yellow;
+        }
+      }
+    }
+
+    .boxDefault {
+      position: relative;
+      float: left;
+      margin: 0;
+
+      height: 100%;
+      width: 25%;
+
+      border: none;
+      background-color: rgba(10, 13, 8, .8);
+
+      .switchBox {
+        position: relative;
+        float: left;
+        margin: 0 0 10% 0;
+
+        height: 78%;
+        width: 98%;
+
+        border: solid 2px #000;
+
+        background-color: rgba(80, 100, 60, .6);
+
+        h3 {
+          margin: 0;
+
+          text-align: center;
+          text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+          font-size: 18px;
+          font-family: Walkway;
+
+          color: yellow;
+        }
+      }
+    }
+  }
+}
+
+.bottomContainer {
+  position: relative;
+  float: left;
+  margin: 2.5% 10% 0 10%;
+
+  height: 25%;
+  width: 80%;
+
+  border-radius: 5%;
+  background-color: rgba(15, 225, 0, 0.3);
+
+  #pictureBox {
+    position: relative;
+    float: left;
+    margin: 0 0 0 5%;
+
+    height: 100%;
+    width: 30%;
+
+    background: url(image_path("$_warious_2.jpg")) no-repeat;
+    //background-color: gray;
+    // background-image: url(image_path("$me0.jpg"));
+    background-size: cover;
+  }
+
+  #blurbBox {
+    position: relative;
+    float: left;
+    margin: 0 5% 0 0;
+
+    height: 100%;
+    width: 60%;
+
+    //background-color: rgba(60, 175, 40, 0.8);
+    background-color: rgba(3, 8, 0, .35);
+
+    h1 {
+      padding: 2% 0 0 10%;
+
+      font-family: ComingSoon;
+      text-shadow: -4px 0 #000, 0 4px #000, 4px 0 #000, 0 -4px #000;
+
+      color: rgba(170, 225, 16, 0.9);
+      //color: rgba(120, 255, 40, 0.85);
+    }
+
+    p {
+      padding: 0 5%;
+
+      text-shadow: -2px 0 #000, 0 2px #000, 2px 0 #000, 0 -2px #000;
+      font-size: 18px;
+
+      color: white;
+    }
+  }
+}*/
+/* line 1, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 23, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 26, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 33, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 38, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 42, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 48, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 55, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 65, C:/Users/Ryan/Projects/Web/Rails/warious/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+   /*
+@font-face {
+  font-family: optie;
+  src: font-url("optie.ttf");
+}
+
+@font-face {
+  font-family: popwei;
+  src: font_url("popwei.ttf");
+}
+
+@font-face {
+  font-family: ComingSoon;
+  src: font_url("ComingSoon.ttf");
+}
+
+@font-face {
+  font-family: Algol_Italic;
+  src: font_url("Algol_Italic.otf");
+}
+
+@font-face {
+  font-family: Algol;
+  src: font_url("Algol.otf");
+}
+
+@font-face {
+  font-family: Fanatika;
+  src: font_url("fanatika.ttf");
+}
+
+@font-face {
+  font-family: FanatikaTwo;
+  src: font-url("fanatikatwo.ttf");
+}
+
+@font-face {
+  font-family: Gashp;
+  src: font-url("gashp.ttf");
+}
+
+@font-face {
+  font-family: Mad_Potato_Bill;
+  src: font-url("Mad_Potato_Bill.ttf");
+}
+
+@font-face {
+  font-family: Messy_Fika;
+  src: font-url("messy_fika.ttf");
+}
+
+@font-face {
+  font-family: Rain_Tax;
+  src: font_url("Rain_Tax.otf");
+}
+
+@font-face {
+  font-family: Walkway;
+  src: font_url("Walkway.ttf");
+}
+
+@font-face {
+  font-family: Hastings;
+  src: font_url("Hastings.ttf");
+}
+
+@font-face {
+  font-family: Castor;
+  src: font_url("CASTOR_.ttf");
+}
+
+@font-face {
+  font-family: CastorM;
+  src: font_url("CASTORM_.ttf");
+}
+
+@font-face {
+  font-family: Kingthings_Sans;
+  src: font_url("Kingthings_Sans.ttf");
+}
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: font_url("Raleway-Mediun.ttf");
+}
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: font_url("Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Raleway-SemiBold;
+  src: font_url("Raleway-SemiBold.ttf");
+}
+
+html {
+  background-image: url(image_path("tile.jpg"));
+}
+
+a {
+  text-decoration: none;
+  //text-shadow: -1px 0 #991100, 0 1px #991100, 1px 0 #991100, 0 -1px #991100;
+
+  font-size: 20px;
+}
+
+a:link {
+  color: rgba(10, 255, 0, 0.8);
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgba(0, 255, 0, 1);
+}
+
+.backdrop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -4;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.backdrop_3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -3;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.backdrop_2 {
+  position: absolute;
+  left: 1%;
+  right: 1%;
+  margin: 0;
+  height: 100%;
+  width: 98%;
+
+  z-index: -2;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.backdrop_1 {
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  margin: 0;
+  height: 100%;
+  width: 96%;
+
+  z-index: -1;
+
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container {
+  position: absolute;
+  left: 3%;
+  right: 3%;
+  margin: 0;
+  height: 100%;
+  width: 94%;
+
+  z-index: 1;
+
+  //background-color: rgba(26, 32, 22, .6);
+  background-color: rgba(110, 120, 100, 0.8);
+
+  #heading {
+    position: relative;
+    float: left;
+    margin: 0 10%;
+    padding: 0;
+    height: 5%;
+    min-height: 38px;
+    width: 80%;
+    min-width: 400px;
+
+    border-radius: 30% 30% 0 0;
+
+    //background-color: rgba(110, 120, 100, 0.8);
+    background-color: rgba(26, 32, 22, .5);
+
+    h1 {
+      position: relative;
+      float: left;
+
+      margin: 1% 0 0 2.5%;
+      height: 100%;
+
+      font-size: 42px;
+      font-family: optie;
+
+      color: papayawhip;
+    }
+
+    p {
+      position: relative;
+      float: left;
+
+      margin: 1% 0;
+
+      font-size: 18px;
+      font-family: popwei;
+      //text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+      //text-shadow: -2px 0 #FFF, 0 2px #FFF, 2px 0 #FFF, 0 -2px #FFF;
+
+      color: rgba(150, 250, 0, 0.95);
+    }
+  }
+
+  #page_body {
+    position: relative;
+    float: left;
+    margin: 0 10%;
+    height: 95%;
+    width: 80%;
+    min-width: 400px;
+
+    background-color: rgba(95, 115, 80, .7)
+  }
+}*/

@@ -1,0 +1,76 @@
+.feedImage {
+  position: relative;
+  float: left;
+
+  height: 150px;
+  width: 150px;
+  margin: 5% 0 0 5%;
+
+  background-color: #000000;
+
+  img {
+    height: auto;
+    width: auto;
+  }
+}
+
+.feedItem {
+  position: relative;
+  float: left;
+
+  width: auto;
+  margin: 0;
+  padding: 0 0 0 50px;
+
+  border-bottom: dashed 2px #000000;
+
+  h1 {
+    text-align: left;
+    //padding-left: 100px;
+  }
+
+  h2 {
+    font-size: 18px;
+
+    //padding-left: 100px;
+  }
+
+  h3 {
+    font-size: 22px;
+    font-family: "Lato", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+    //padding-left: 100px;
+  }
+
+  p {
+    font-family: cursive;
+  }
+
+  .feedSpan {
+    display: none;
+
+    p {
+      font-size: 24px;
+      font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+
+  .selector {
+    position: relative;
+    float: right;
+
+    height: 30px;
+    width: 32px;
+
+    background-color: rgba(100, 170, 100, .7);
+
+    .selectorBox {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}

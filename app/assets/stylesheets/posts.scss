@@ -1,3 +1,54 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  text-align: left;
+  //padding-left: 100px;
+}
+
+h2 {
+  font-size: 18px;
+
+  //padding-left: 100px;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: FanatikaTwo;
+  letter-spacing: 2px;
+
+  //padding-left: 100px;
+}
+
+p {
+  font-family: cursive;
+
+  //padding-left: 100px;
+}
+
+.showBlock {
+  h1 {
+    text-align: left;
+    padding-left: 100px;
+  }
+
+  h2 {
+    font-size: 18px;
+
+    padding-left: 100px;
+  }
+
+  h3 {
+    font-size: 15px;
+    font-family: FanatikaTwo;
+    letter-spacing: 2px;
+
+    padding-left: 100px;
+  }
+
+  p {
+    font-family: cursive;
+
+    padding-left: 100px;
+  }
+}

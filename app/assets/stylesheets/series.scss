@@ -1,0 +1,27 @@
+// Place all the styles related to the Series controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.seriesBox {
+  position: relative;
+  float: left;
+  padding: 2%;
+  margin: 0;
+
+  height: auto;
+  width: 96%;
+
+  //border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}

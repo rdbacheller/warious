@@ -1,0 +1,25 @@
+// Place all the styles related to the Feed controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.feed {
+  padding: 25px;
+
+  h1 {
+    font-family: "Walkway", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier New", monospace;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h2 {}
+
+  h3 {}
+
+  p {
+    padding-left: 100px;
+  }
+}
+
+
+

@@ -1,0 +1,20 @@
+<% @pageTitle = "|| Series~Index" %>
+
+<% @series.each do |series| %>
+    <div class="seriesBox">
+      <h1><%= series.title %></h1>
+      <h2><%= series.description %></h2>
+      <ul>
+        <li>
+          <h3><%= link_to 'Show', {:action => 'show', :id => series.id} %></h3>
+        </li>
+        <li>
+          <h3><%= link_to 'Edit', {:action => 'edit', :id => series.id} %></h3>
+        </li>
+        <li>
+          <h3><%= link_to 'Delete', {:action => 'delete', :id => series.id} %></h3>
+        </li>
+      </ul>
+    </div>
+<% end %>
+

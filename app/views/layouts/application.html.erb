@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Warious</title>
+  <title>Warious <%= @pageTitle || 'default' %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 <div class="container">
-  <div id="sidebar">
-    <div id="mainNav"><h1>Warious</h1></div>
-    <div id="navbar"></div>
-
-    <ul id="seriesBar">
-      <h2>Filter By Series</h2>
-      <li class="active"><h3>All</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>ABCD E FGHI JKLMN OPQ RSTUV WXYZ ABC</h3></li>
-      <li><h3>-more-</h3></li>
-    </ul>
+  <div class="header">
+    <div class="menuBody">
+      <p id="menuHead">Warious</p>
+      <div class="menuExpand">
+          <% @menuItems.each do |foo, bar| %>
+            <%= render(:partial => 'layouts/menuBox', :locals => {:foo => foo, :bar => bar}) %>
+          <% end %>
+      </div>
+    </div>
+    <!--<h3>Home of the Warious Ninja</h3>
+    <!--<div class="emblem"></div>
+    <div class="user"></div>-->
   </div>
-
-  <div id="viewBody">
-    <%= yield %>
+  <div  class="pageBody">
+    <div class="page">
+      <div class="column" id="colOne">
+        <%= yield %>
+      </div>
+      <div class="column" id="colTwo">
+        <div class="sideBar">
+          <h1>Home Page Side Bar</h1>
+          <p>This is the home page sidebar, where I will probably put the ad bar, as well as a user area and a chat area</p>
+        </div>
+      </div>
+    </div>
   </div>
+  <div class="footer"><p>Currently In Development ;)</p></div>
 </div>
-
 </body>
 </html>

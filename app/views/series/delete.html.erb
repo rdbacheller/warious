@@ -1,0 +1,14 @@
+<h3><%= link_to '--Back To Index--', series_index_url %></h3>
+
+<br />
+
+<h1><%= @series.title %></h1>
+
+<br />
+
+<div class="confirm" id="yes">
+  <%= link_to 'Confirm', {:action => 'destroy', :id => @series.id}, :class => 'confirm-button' %>
+</div>
+<div class="confirm", id="no">
+  <%= link_to 'Cancel', {:action => 'index'}, :class => 'cancel-button' %>
+</div>

@@ -1,21 +1,38 @@
 Rails.application.routes.draw do
-  resources :posts
-  root 'landing#index'
 
-  get 'landing/index'
-  get 'landing/cascade'
+  get 'series/index'
 
-  #get 'landing/pad'
+  get 'series/show'
 
-  #get 'landing/spot'
+  get 'series/new'
 
-  #get 'landing/restricted'
+  get 'series/create'
 
-  #get 'landing/forbidden'
+  get 'series/edit'
 
-  #get 'landing/portal'
+  get 'series/delete'
 
-  #get 'landing/easteregg'
+  get 'series/destroy'
+
+  get 'posts/index'
+
+  get 'posts/show'
+
+  get 'posts/new'
+
+  get 'posts/edit'
+
+  get 'posts/delete'
+
+  get 'feed' => 'feed#index'
+
+  get 'feed/index'
+
+  get 'feed/expanded'
+
+  get 'feed/forbidden'
+
+  root 'feed#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

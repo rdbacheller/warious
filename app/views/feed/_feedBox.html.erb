@@ -1,0 +1,19 @@
+<%= stylesheet_link_tag 'feedBox' %>
+<div class="feedImage">
+  <img src="<%= foo %>" />
+</div>
+
+<div class="feedItem">
+  <h1><a href="/posts/show?id=<%= link %>"><%= bar %></a></h1>
+  <form class="selector">
+    <input class="selectorBox" id="<%= @counter %>" type="checkbox" name="article" value="null" />
+  </form>
+  <h2>Written By: <%= spam %></h2>
+  <h3>Caption:</br><%= cap %></h3>
+  <div class="feedSpan" id="block<%= @counter %>">
+    <p><%= mush %></p>
+  </div>
+  <p>Posted: <%= eggs %></p>
+</div>
+
+<% @counter += 1 %>

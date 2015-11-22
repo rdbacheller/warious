@@ -1,0 +1,14 @@
+<h3><%= link_to '--Back To Index--', series_index_url %></h3>
+
+<br />
+
+<h1><%= @series.title %></h1>
+<p>Created By (user): <%= @series.author %></p>
+<p>Subject: <%= @series.subject %></p>
+<p>Flag (key): <%= @series.flag %></p>
+<p>Created At: <%= @series.created_at %></p>
+<p>Last Updated At: <%= @series.updated_at %></p>
+<p>Last Updated By (user): <%= @series.last_updated_by %></p>
+
+<br />
+<h3><%= link_to "Delete", {:action => 'delete', :id => @series.id}, :class => 'delete-link'  %></h3>
